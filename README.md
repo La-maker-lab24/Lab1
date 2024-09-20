@@ -1,2 +1,5 @@
 ![example workflow](https://github.com/La-maker-lab24/Lab1/actions/workflows/test-action.yml/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/La-maker-lab24/Lab1/badge.svg?branch=master)](https://coveralls.io/github/La-maker-lab24/Lab1?branch=master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=La-maker-lab24_Lab12&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=La-maker-lab24_Lab12)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=La-maker-lab24_Lab12&metric=bugs)](https://sonarcloud.io/summary/new_code?id=La-maker-lab24_Lab12)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=La-maker-lab24_Lab12&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=La-maker-lab24_Lab12)
