@@ -4,6 +4,7 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=La-maker-lab24_Lab12&metric=bugs)](https://sonarcloud.io/summary/new_code?id=La-maker-lab24_Lab12)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=La-maker-lab24_Lab12&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=La-maker-lab24_Lab12)
 
+
 # План тестирования
 Тест А1
 - Тест проверяет: нулевой дискриминат
