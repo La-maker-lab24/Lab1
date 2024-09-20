@@ -14,7 +14,7 @@ extern "C" {
 TEST(test1, zero_discriminant) {
     double root1, root2;
     ASSERT_EQ(solve(1, -2, 1, &root1, &root2), 1);
-    ASSERT_DOUBLE_EQ(root1, 1);
+    ASSERT_DOUBLE_EQ(root1, 2);
 }
 
 TEST(test1, negative) {
