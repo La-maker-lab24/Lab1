@@ -1,6 +1,6 @@
 name: CI/CD GitHub Actions
 on: [push]
-jobs:
+jobs:   
   gtest-tests:
     runs-on: ubuntu-latest
     steps:
@@ -15,8 +15,8 @@ jobs:
       - run: make
       - run: make CTEST_OUTPUT_ON_FAILURE=1  test
 
-      - name: Coveralls
-        run: coveralls -t ${{ secrets.coveralls_token }} --root . -E ".*external.*" -E ".*tests.*" -E ".*CMakeFiles.*"
+      - name: Coveralls GitHub Action
+        run: coveralls -t ${{ secrets.COVERALLS_TOKEN }} --root . -E ".*external.*" -E ".*tests.*" -E ".*CMakeFiles.*"
 
   sonarcloud-check:
     needs: gtest-tests
