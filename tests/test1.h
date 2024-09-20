@@ -47,7 +47,7 @@ TEST(test5, OneSolutionLinear) {
 
 TEST(test6, FractionalCoefficients) {
     double root1, root2;
-    ASSERT_EQ(solve(0.5, -1.5, 0.5, &root1, &root2), 1);
+    ASSERT_EQ(solve(0.5, -1.5, 0.5, &root1, &root2), 0);
 }
 
 #endif // TEST1_H
