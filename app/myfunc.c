@@ -4,10 +4,9 @@
 int solve(double a, double b, double c, double* x1, double* x2)
 {
     // ax^2 + bx + c = 0
-    double D;
     // bx + c = 0
     // bx = -c
-
+    double D;
     if (a == 0)
     {
 	if (b == 0)
